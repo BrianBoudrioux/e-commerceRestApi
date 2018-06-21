@@ -1,0 +1,26 @@
+{
+  "name": "e-commerce-rest-api",
+  "version": "1.0.0",
+  "description": "RESTful eCommerceApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "brian boudrioux",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.1.6",
+    "password-hash": "^1.2.2"
+  }
+}
